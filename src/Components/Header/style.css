@@ -1,0 +1,32 @@
+.header-wrapper{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    
+    p{
+        font-size: 24px;
+        margin: 10px;
+        
+        
+    }
+
+    li{
+        font-size: 20px;
+        a{
+            color: rgb(47, 48, 49);
+            margin: 25px;
+            padding: 1px;
+            font-family: Arial, Helvetica, sans-serif
+            
+        }
+    }
+
+}
+
+.header-wrapper ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-left: 800px;
+    list-style: none;
+}
+

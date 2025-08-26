@@ -1,0 +1,101 @@
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.text{
+  color: black;
+}
+
+.text-block {
+  flex: 1;
+  opacity: 0.5;
+  padding-right: 500px;
+}
+
+.image-block {
+  flex: 1;
+}
+
+.my-image, .mi-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+
+.page-content:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.page-content:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+p{
+  height: 62px;
+  color: black;
+}
+.container {
+  padding: 20px;
+}
+
+.texts-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.text-left, .text-right {
+  width: 45%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.gallery-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.top-row img {
+  width: 45%; 
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.bottom-row img {
+  width: 30%; 
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+.map-container {
+  margin: 40px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
